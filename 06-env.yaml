@@ -1,0 +1,17 @@
+
+kind: Pod
+metadata:
+  name: environment
+spec:
+  containers:
+  - name: myapp
+    image: nginx
+    env:
+    - name: course
+      value: devops
+    - name: trainer
+      value: veerababu
+    - name: batch
+      value: "120hrs"
+    - name: start_date
+      value: "2024-07-01"
